@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>jQuery Facebook Friend Selector by jeremybasolo</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>jQuery Facebook Friend Selector</h1>
+        <p>A simple Facebook friend selector, fully customisable with pagination and search engine</p>
+        <p class="view"><a href="https://github.com/jeremybasolo/Facebook-Friend-Selector">View the Project on GitHub <small>jeremybasolo/Facebook-Friend-Selector</small></a></p>
+        <ul>
+          <li><a href="https://github.com/jeremybasolo/Facebook-Friend-Selector/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/jeremybasolo/Facebook-Friend-Selector/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/jeremybasolo/Facebook-Friend-Selector">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p><strong><a href="http://www.jeremybasolo.com/fbfriendselector/">Click here for a demo</a></strong></p>
+
+<p>Tested on:
+<em>Firefox, Chrome, Safari, IE7, IE8, IE9</em></p>
+
+<p>A sample source code is available in index.html</p>
+
+<p>The parameters available are listed below:</p>
+
+<ul>
+<li>friendsByPage: any positive integer. Define the number of friends to display by page. If value is 0, no pagination. Default value is 0.</li>
+<li>displayThumbnail: true or false. Display or not the thumbnail for each friend. Default value is true.</li>
+<li>loadingText: any HTML. Define the HTML to display while the content is Loading. Default value is 'Loading...'.</li>
+<li>searchEngine: true or false. Add a search engine at the top. Default value is true.</li>
+<li>onSelect: Javascript function. Define the function to execute when the user click on a friend. a Json object can be use in that function, containing the id and name of the friend. 
+Default value is:
+function(data) {
+var display = 'Id: ' + data.id + '\n\nName: ' + data.name;
+console.log(display);
+}</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/jeremybasolo">jeremybasolo</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>

@@ -1,6 +1,6 @@
 # Facebook Friend Selector
 
-##! This is DEPRECATED as of recent changes in the API, Facebook no longer authorize to get the full list of a user's friends
+## ! This is DEPRECATED as of recent changes in the API, Facebook no longer authorize to get the full list of a user's friends !
 
 **Demo:** https://jeremybasolo.com/demos/fbfriendselector/index.html
 
